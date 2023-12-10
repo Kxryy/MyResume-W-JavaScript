@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirby Alfiler's Resume</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <div class="top-section">
+            <h1>Welcome to My Resume</h1>
+            <p>Explore my skills, experience, and more...</p>
+
+        </div>
+        <div class="profile-section">
+            <img class="pfp" src="./assets/profilepicround.png" alt="Profile Picture">
+            <div class="pangalan">
+                <h1 id="introduc"><strong>Hello, I'm</strong></h1>
+                <h1 id="nagan"><strong>Kirby Alfiler</strong></h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <button id="darkModeButton">Toggle Dark Mode</button>
+
+        <nav class="nav-buttons">
+            <button class="nav-button" onclick="scrollToSection('about-me')">About Me</button>
+            <button class="nav-button" onclick="scrollToSection('experience')">Experience</button>
+            <button class="nav-button" onclick="scrollToSection('education')">Education</button>
+            <button class="nav-button" onclick="scrollToSection('skills')">Skills</button>
+            <button class="nav-button" onclick="scrollToSection('interests')">Interests</button>
+            <button class="nav-button" onclick="scrollToSection('contact')">Contact</button>
+        </nav>
+
+        <section id="about-me" class="section about-me">
+            <h1>About Me</h1>
+            <p>I'm Kirby Chester Lei C. Alfiler, Works as a freelancer video editing, graphic designer and Backend Developer. I love
+                to learn and develop my skills and further enhance the quality of my products and
+                the programs that i make. Lets work together and make the best of it. </p>
+        </section>
+
+        <section id="experience" class="section experience">
+            <h1>Experience</h1>
+            <p>I possess the ability to tailor my approach to meet the specific needs of my customers or clients, ensuring the production of high-quality products. In the realm of Video Editing, I am well-versed in utilizing tools such as After Effects, Adobe Media Pro, and Filmora. My demeanor is characterized by politeness, and I actively cultivate a respectful and adaptable attitude towards my colleagues, contributing to enhanced efficiency and productivity in our collaborative efforts. Effective communication is a strength of mine, allowing me to comprehend and respond to the requirements of my clients adeptly. Furthermore, I exhibit flexibility in video editing tasks, demonstrating an aptitude for adaptation in dynamic situations, including those involving time pressure and tight deadlines..</p>
+        </section>
+
+        <section id="education" class="section education">
+            <h1>Education</h1>
+            <h2>University of the Cordilleras</h2>
+            <p1>College School</p1>
+            <h2>Naguilian National Highschool </h2>
+            <p1>Highschool</p1>
+            <h2>Don Tomas R Mendoza Elementary School </h2>
+            <p1>Elementary grade school</p1>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h1>Skills</h1>
+            <div class="skill">
+                <p>HTML/CSS</p>
+                <div class="progress-bar" style="width: 50%;"></div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar" style="width: 40%;"></div>
+            </div>
+            <div class="skill">
+                <p>After Effects</p>
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+            <div class="skill">
+                <p>Photoshop</p>
+                <div class="progress-bar" style="width: 65%;"></div>
+            </div>
+        </section>
+
+        <section id="interests" class="section interests">
+            <h1>Interests</h1>
+            <p>I am passionate about continuous improvement and aspire to collaborate with larger companies, aiming to expand my knowledge and contribute to the creation of even higher-quality products.</p>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Information</h2>
+            <p>Email: kirbyalfiler@gmail.com</p>
+            <p>
+                Facebook:
+                <a href="https://www.facebook.com/kirbyyalfiler/" target="_blank">Click for my Facebook Profile</a>
+                <button class="interactive-button" onclick="openFacebookModal()">
+                    <img class="icon" src="./assets/facebookicon.webp" alt="Facebook">
+                </button>
+            </p>
+            <p>
+                Instagram:
+                <a href="https://www.instagram.com/kxry.xy/" target="_blank">Click for my Instagram Profile</a>
+                <button class="interactive-button" onclick="openInstagramModal()">
+                    <img class="icon" src="./assets/instagramicon.png" alt="Instagram">
+                </button>
+            </p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
